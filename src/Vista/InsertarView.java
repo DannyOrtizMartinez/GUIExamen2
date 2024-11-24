@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
-public class FormularioNombresConFondo extends JFrame {
+public class InsertarView extends JFrame {
 
-    public FormularioNombresConFondo() {
+    public InsertarView() {
         // Configuración de la ventana principal
         setTitle("Formulario de Registro de Nombres");
         setSize(600, 500);
@@ -122,6 +122,6 @@ public class FormularioNombresConFondo extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(FormularioNombresConFondo::new);
+        SwingUtilities.invokeLater(InsertarView::new);
     }
 }
